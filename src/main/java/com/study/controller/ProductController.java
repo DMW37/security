@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @RequestMapping("/product")
 public class ProductController {
-    @ResponseBody
+
     @RequestMapping("/findAll.do")
     public String findAll() {
-        return "success";
+        return "product-list";
     }
 }
