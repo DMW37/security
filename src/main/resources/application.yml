@@ -6,3 +6,16 @@ spring:
     view:
       prefix: /pages/
       suffix: .jsp
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/security_authority?useSSL=false
+    username: root
+    password: 101407180926yJC
+mybatis:
+  type-aliases-package: com.study.domain
+  configuration:
+    map-underscore-to-camel-case: true
+logging:
+  level:
+    com.study: debug
+

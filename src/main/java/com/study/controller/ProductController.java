@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping("/product")
 public class ProductController {
 
-    @RequestMapping("/findAll.do")
+    @RequestMapping("/findAll")
     public String findAll() {
         return "product-list";
     }
